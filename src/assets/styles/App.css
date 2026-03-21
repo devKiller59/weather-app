@@ -7,6 +7,7 @@
 .App {
   background-image: url(../images/background.jpeg);
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -19,8 +20,7 @@
   flex-direction: column;
   font-size: large;
   text-align: center;
-  margin-top: 15px;
-  padding: 55px;
+  padding: 30px;
 }
 
 .full-date {
@@ -90,10 +90,7 @@
 .w-det {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: auto;
-  font-size: large;
   text-align: center;
   padding: 10px 5rem;
   border-radius: 30px;
@@ -102,13 +99,14 @@
 
 .w-det p {
   font-family: 'Courier New', Courier, monospace;
-  padding: 30px;
+  padding: 20px;
 }
 
 .footer {
   background-color: lightblue;
   color: #000;
   font-size: small;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .padding {
