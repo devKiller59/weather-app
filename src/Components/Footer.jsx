@@ -1,12 +1,14 @@
+import { FaHeart, FaGithub } from 'react-icons/fa';
+
 const Footer = () => {
   return(
-    <footer className='footer padding'>
-      <div>
-        <p>&copy; <a href="https://github.com/devkiller59">@devKiller59</a> - All rights reserved</p>
-        <p><b>Powered by:</b> OpenWeatherMap API</p>
-        <p>{new Date().getFullYear()}</p>
-      </div>
-    </footer>
+    <footer className="app-footer">
+        <p>Hecho con <FaHeart className="heart-icon" /> por <strong>DevKiller59</strong> &copy; {new Date().getFullYear()}</p>
+        <p>Powered by <strong>OpenWeatherMap API</strong></p>
+        <div className="footer-links">
+          <a href="https://github.com/devkiller59" target="_blank" rel="noreferrer"><FaGithub /> GitHub</a>
+        </div>
+      </footer>
     )
 };
 
